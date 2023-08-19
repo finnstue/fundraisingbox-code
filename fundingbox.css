@@ -20,7 +20,12 @@ html, body {
 
 .box {
 }
+
 .box-inner {
+  border-color: none;
+  border-style: none;
+  border-width: none;
+  border-radius: none;
 }
 
 .progressbar,
