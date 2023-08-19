@@ -19,8 +19,21 @@ html, body {
 }
 
 .box {
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	background: url(/design/boxbg.png) repeat-x scroll center top #F0F0F0;
 }
 .box-inner {
+	border-color: #ccc #aaa #5b5b5b;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	padding: 10px;
+	overflow: hidden;
+}
 
 .progressbar,
 .progressbar-done {
@@ -63,6 +76,7 @@ html, body {
 	height: 77px;
 	top: -20px;
 	right: -25px;
+	background: url(/design/progressbar-stars.png) no-repeat;
 }
 
 #donate-button {
