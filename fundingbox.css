@@ -19,10 +19,6 @@ html, body {
 }
 
 .box {
-	border-radius: 7px;
-	-moz-border-radius: 7px;
-	-webkit-border-radius: 7px;
-	background: transparent;
 }
 .box-inner {
 }
