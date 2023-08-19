@@ -19,20 +19,13 @@ html, body {
 }
 
 .box {
-	border-radius: none !important;
-	-moz-border-radius: none !important;
-	-webkit-border-radius: none !important;
-	background: none !important;
 }
+
 .box-inner {
-	border-color: none !important;
-	border-style: none !important;
-	border-width: none !important;
-	border-radius: none !important;
-	-moz-border-radius: none !important;
-	-webkit-border-radius: none !important;
-	padding: none !important;
-	overflow: hidden;
+  border-color: none;
+  border-style: none;
+  border-width: none;
+  border-radius: none;
 }
 
 .progressbar,
@@ -41,12 +34,12 @@ html, body {
 	height: 42px;
 }
 .progressbar {
-	background: #e1f6fc;
+	background: yellow;
 	position: relative;
 	margin-bottom: 10px;
 }
 .progressbar-done {
-	background: #2874bc;
+	background: blue;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -59,24 +52,6 @@ html, body {
 	position: absolute;
 	top: 5px;
 	right: 17px;
-}
-.progressbar-text-shadow {
-	color: none !important;
-	font-size: none !important;
-	text-align: none !important;
-	font-weight: none !important;
-	position: none !important;
-	top: none !important;
-	right: none !important;
-}
-.progressbar-stars {
-	position: none !important;
-	z-index: none !important;
-	width: none !important;
-	height: none !important;
-	top: none !important;
-	right: none !important;
-	background: none !important;
 }
 
 #donate-button {
@@ -96,7 +71,6 @@ html, body {
 	font-size: 25px;
 	font-weight: bold;
 	text-align: center;
-	text-shadow: none !important;
 	cursor: pointer;
 	border-radius: 10px;
 	-o-border-radius: 10px;
@@ -104,11 +78,6 @@ html, body {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	background-color: #429600;
-	box-shadow: none !important;
-	-o-box-shadow: none !important;
-	-ms-box-shadow: none !important;
-	-moz-box-shadow: none !important;
-	-webkit-box-shadow: none !important;
 	text-decoration: none;
 }
 
