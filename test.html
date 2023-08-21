@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Tracker</title>
+    <style>
+        body {
+        }
+
+        .progress-bg {
+            margin: 0 auto;
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #e1f6fc;
+        }
+
+        .progress-bar {
+            height: 50px;
+            border-radius: 10px 0px 0px 10px;
+            float: left;
+            width: 30%;
+            background-color: #2874bc;
+        }
+
+        .progress-bg h3.goal {
+            color: #b2b2b2;
+            padding: 0 25px 0 0;
+            text-align: right;
+        }
+
+        .text-div {
+            margin: 0 auto;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h3 {
+            color: #adadad;
+            display: inline;
+            font-family: Arial, sans-serif;
+            font-size: 1.8em;
+            font-weight: 600;
+            line-height: 50px;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Responsive styling */
+        @media (max-width: 1200px) {
+            body {
+            }
+
+            .progress-bg, .text-div {
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 1.3em;
+            }
+
+            .progress-bg {
+                height: 50px;
+            }
+
+            .progress-bar {
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+  <div class="progress-bg">
+    <div class="progress-bar">
+    </div>
+  </div>
+  <div class="text-div">
+    <h3 class="raised">$12,000&nbsp;raised </h3>
+    <h3 class="goal">Goal: $24,000</h3>
+  </div>
+</body>
+</html>

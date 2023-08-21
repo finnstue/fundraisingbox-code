@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Tracker</title>
+    <style>
+        body {
+            padding: 50px;
+        }
+
+        .progress-bg {
+            margin: 0 auto;
+            width: 65%;
+            height: 78px;
+            border-radius: 5px;
+            text-align: center;
+            background-color: #e1f6fc;
+        }
+
+        .progress-bar {
+            height: 78px;
+            border-radius: 10px 0px 0px 10px;
+            float: left;
+            width: 50%;
+            background-color: #2596be;
+        }
+
+        @keyframes fadein {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @-moz-keyframes fadein {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @-webkit-keyframes fadein {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @-ms-keyframes fadein {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @-o-keyframes fadein {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .progress-bg h3.goal {
+            color: #b2b2b2;
+            float: right;
+            display: inline;
+            padding: 0 25px 0 0;
+            text-align: center;
+        }
+
+        body .progress-bg div {
+            -webkit-animation: progress-bar 2s ease forwards;
+            -moz-animation: progress-bar 2s ease forwards;
+            -o-animation: progress-bar 2s ease forwards;
+            animation: progress-bar 2s ease forwards;
+        }
+
+        @-webkit-keyframes progress-bar {
+            from { width: 0%; }
+            to { width: 50%; }
+        }
+
+        @-moz-keyframes progress-bar {
+            from { width: 0%; }
+            to { width: 50%; }
+        }
+
+        @-o-keyframes progress-bar {
+            from { width: 0%; }
+            to { width: 50%; }
+        }
+
+        @keyframes progress-bar {
+            from { width: 0%; }
+            to { width: 50%; }
+        }
+
+        h3 {
+            color: #adadad;
+            float: right;
+            display: inline;
+            padding: 0 25px 0 0;
+            text-align: center;
+            font-family: Arial,sans-serif;
+            font-size: 2em;
+            font-weight: 600;
+            line-height: 78px;
+            margin: 0;
+            padding: 0;
+            display: inline;
+            margin: 14px 25px 0 50px;
+        }
+
+        .text-div {
+            margin: 0 auto;
+            width: 65%;
+        }
+
+        .raised {
+            margin: 0 auto;
+        }
+
+        .goal {
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+  <div class="progress-bg">
+    <div class="progress-bar">
+    </div>
+  </div>
+  <div class="text-div">
+    <h3 class="raised">$12,000&nbsp;raised </h3>
+    <h3 class="goal">Goal: $24,000</h3>
+  </div>
+</body>
+</html>
